@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #0f0f0f;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo{
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #eeeeee;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/sistemaBinario.jpg) no-repeat center;
+    background-size: cover;
+}
+.header p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 200;
+     color: #ffffff;
+    
+    width: 60rem;
+    background: #101010d4;
+    text-align: center;
+    border-radius: 3rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem; 
+    height: 10rem; 
+    
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+
+p {
+     
+    margin-bottom: 80px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 100px;
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #23dbde;
+    color: #000000;
+    text-decoration: none;
+    background: #23dbde;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 50px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 13rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 1rem;  
+     
+}
+
+.box-container .box a{
+    color: #23dbde00;
+}
+
+.box-container .box h3 {
+    font-size: 40px;
+    color: #23dbde;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/Binario.gif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+
+    
+    
+}
+
+
+
+.Unidades {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+     
+}
+
+.Unidades h2{
+    font-size: 40px;
+    padding: 0 200px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Unidades h3{
+    font-size: 30px;
+    padding: 0 400px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Unidades p{
+     
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    display: flex;
+
+}
+
+.Unidades2{
+
+    padding-top: 20px;
+    background: #1b1818;
+    padding-bottom: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Unidades2 h2{
+    font-size: 40px;
+    padding: 0 200px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Unidades2 h3{
+    font-size: 30px;
+    padding: 0 400px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Unidades2 h4{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    display: flex;
+    margin: 0.5rem 0.2rem;
+
+}
+.Unidades2 h5{
+    
+    margin: 3rem 2rem;
+
+}
+
+.Unidades2 p{
+     
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    margin: 0.5rem 0.2rem ;
+    display: flex;
+
+}
+
+.Unidad3{
+
+    padding-top: 20px;
+    background: #1b1818;
+    padding-bottom: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Unidad3 h2{
+    font-size: 40px;
+    padding: 0 200px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Unidad3 h3{
+    font-size: 30px;
+    padding: 0 400px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Unidad3 h4{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    display: flex;
+    margin: 0.5rem 0.2rem;
+
+}
+.Unidad3 h5{
+    
+    margin: 3rem 2rem;
+
+}
+
+.Unidad3 p{
+     
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    margin: 0.5rem 0.2rem ;
+    display: flex;
+
+}
+
+.Unidad4{
+
+    padding-top: 20px;
+    background: #1b1818;
+    padding-bottom: 0;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Unidad4 h2{
+    font-size: 40px;
+    padding: 0 200px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Unidad4 h3{
+    font-size: 30px;
+    padding: 0 400px;
+    margin: 0.8rem 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Unidad4 h4{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    display: flex;
+    margin: 0.5rem 0.2rem;
+
+}
+.Unidad4 h5{
+    
+    margin: 3rem 2rem;
+
+}
+
+.Unidad4 p{
+     
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 200px;
+    margin: 0.5rem 0.2rem ;
+    display: flex;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
